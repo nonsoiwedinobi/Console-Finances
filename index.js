@@ -131,6 +131,6 @@ var averageChange = totalChange / (totalMonths - 1);
 // Output the results
 console.log("Total Months: " + totalMonths);
 console.log("Total: $" + netTotal);
-console.log("Average Change: " + averageChange);
+console.log("Average Change: $" + averageChange.toFixed(2));
 console.log("Greatest increase in Profit/Losses: " + greatestIncrease.date + " ($" + greatestIncrease.amount + ")");
 console.log("Greatest decrease in Profit/Losses: " + greatestDecrease.date + " ($" + greatestDecrease.amount + ")");
